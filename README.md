@@ -1,0 +1,2 @@
+# fabric
+class repo
