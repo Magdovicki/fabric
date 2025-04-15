@@ -1,6 +1,10 @@
 table Sale
 	lineageTag: cca01501-0b31-4797-b60e-dc550c42c234
 
+	measure 'Total Quantity' = SUM('Sale'[Quantity] )
+		formatString: 0
+		lineageTag: f770c48e-5fb8-4d65-b11b-1b369f747513
+
 	column 'Sale Key'
 		dataType: int64
 		formatString: 0
